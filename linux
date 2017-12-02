@@ -1,0 +1,2 @@
+# environment variable
+export PATH="/data3/users/xiezhiang/matlab/bin"$PATH
