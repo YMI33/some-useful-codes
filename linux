@@ -2,3 +2,26 @@
 export PATH="/data3/users/xiezhiang/matlab/bin"$PATH
 
 find .|xargs grep x
+
+"vim配置
+"字符串编码
+set encoding=utf-8
+set fileencoding=utf-8
+"set termencoding=utf-8
+
+"行号，默认存储和换行
+set nu
+set autoindent
+set nobackup
+
+"语法高亮
+colorscheme solarized
+syntax enable
+syntax on
+
+"缩进和自动补全
+set tabstop=4
+set expandtab
+set shiftwidth=4
+set wildmenu
+
