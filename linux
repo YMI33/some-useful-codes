@@ -3,6 +3,17 @@ export PATH="/data3/users/xiezhiang/matlab/bin"$PATH
 
 find .|xargs grep x
 
+MAC 增加颜色设置
+# Tell ls to be colourful
+export CLICOLOR=1
+export LSCOLORS=Exfxcxdxbxegedabagacad
+
+# Tell grep to highlight matches
+export GREP_OPTIONS='--color=auto'
+# from https://blog.csdn.net/wxqee/article/details/49406597 
+
+
+
 "vim配置
 "字符串编码
 set encoding=utf-8
