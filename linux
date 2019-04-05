@@ -35,4 +35,5 @@ set tabstop=4
 set expandtab
 set shiftwidth=4
 set wildmenu
+inoremap <tab><space> <C-X><C-F>
 
