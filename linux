@@ -1,6 +1,10 @@
 # environment variable
 export PATH="/data3/users/xiezhiang/matlab/bin"$PATH
 
+# delete ^M
+:e ++ff=dos
+:set ff=unix
+
 find .|xargs grep x
 
 MAC 增加颜色设置
