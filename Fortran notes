@@ -1,0 +1,17 @@
+compiler options:
+  -fdefault-real-8 -> default real as 8 bytes
+  -fopenmp         -> parellel optioon
+
+Parallel notes:
+time count:
+  !$ use omp_lib
+  !$ t0=omp_get_wtime() ! count the absolute wall time
+Parallel section:
+  !$omp parallel sections
+    !$omp section
+    ....
+    !$omp section
+    ....
+  !$omp end parallel sections
+
+
